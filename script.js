@@ -25,5 +25,9 @@ function submitForm() {
     else if (selected.value === "partner") {
         window.location.href = "life_partner.html";
     }
+    else if (selected.value === "daji") {
+        window.location.href = "brothers_low.html";
+    }
 }
+
 
