@@ -40,7 +40,7 @@ b{
 	margin-top:20px;
 	
 }
-#rd1,#rd2,#rd3,#rd4,#rd5,#rd6{
+#rd1,#rd2,#rd3,#rd4,#rd5,#rd6,#rd7{
 	margin:10px;
 	cursor:pointer;
 	
@@ -60,6 +60,7 @@ button{
 button:hover {
     background: #0056b3;
 }
+
 
 
 
