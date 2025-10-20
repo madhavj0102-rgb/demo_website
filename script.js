@@ -9,7 +9,10 @@ function submitForm() {
     // Redirect based on value
     if (selected.value === "bhau") {
         window.location.href = "bhau.html";
-    } 
+    }
+     else if (selected.value === "sister") {
+        window.location.href = "sister.html";
+    }    
     else if (selected.value === "friend") {
         window.location.href = "friend.html";
     } 
@@ -29,6 +32,7 @@ function submitForm() {
         window.location.href = "brothers_low.html";
     }
 }
+
 
 
 
