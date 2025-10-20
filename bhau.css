@@ -76,6 +76,50 @@ button{
     font-size: 16px;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    .diwali_diyasLeft,
+    .diwali_diyasRight {
+        width: 50px;
+        height: 50px;
+    }
+
+    .diyas {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+        gap: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    span {
+        font-size: 22px;
+    }
+
+    .diyas {
+        width: 250px;
+    }
+}
+
 @keyframes spanimation {
     from {
         text-shadow: 0px 0px 50px rgb(165, 62, 22), 0px 0px 20px rgb(165, 62, 22),
@@ -86,4 +130,5 @@ button{
         text-shadow: 0px 0px 40px rgb(16, 197, 46), 0px 0px 20px gold,
         0px 0px 30px rgb(212,65,6), 0px 0px 60px rgb(221,195,25,0.774),
         0px 0px 50px rgb(16,175,43,0.863);
+
     }
