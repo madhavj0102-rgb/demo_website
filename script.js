@@ -2,7 +2,7 @@ function submitForm() {
     const selected = document.querySelector('input[name="rel"]:checked');
 
     if (!selected) {
-        alert("Please select any one option before submitting!");
+        alert("Please select any one option before submitting!\nतुमच आणि माधव च जे नात आहे त्या समोरिल गोल बटन वर टिक करा आणि सबमिट बटन वर क्लिक करा");
         return;
     }
 
@@ -29,5 +29,6 @@ function submitForm() {
         window.location.href = "brothers_low.html";
     }
 }
+
 
 
