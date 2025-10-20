@@ -8,11 +8,14 @@ h1{
 	max-width:70px;
 }
 .container{
+	border-top: 10px solid #410693 ;
+	border-bottom: 10px solid #410693 ;
+	border-left: 5px solid #410693 ;
+	border-right: 5px solid #410693 ;
 	background: white;
     padding-bottom: 20px;
 	padding-left:10px;
 	padding-top:20px ;
-    border-bottom: 1px solid #ddd;
 	box-shadow: 0 5px 8px rgba(0,0,0,0.1);
 	display:block;
     justify-content:space-between;
@@ -57,6 +60,7 @@ button{
 button:hover {
     background: #0056b3;
 }
+
 
 
 
